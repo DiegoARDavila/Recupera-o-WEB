@@ -11,7 +11,7 @@ export default function Sobre() {
     <>
       <section className="section container about">
         <div className="about__img">
-          <img src="https://picsum.photos/seed/sobre-arq/900/700" alt="Equipe do estúdio" />
+          <img src="https://johnnyvianaarquitetura.com/wp-content/uploads/2025/07/arquiteto-johnny-viana-2025.jpg" alt="Equipe do estúdio" />
         </div>
         <div>
           <SectionTitle eyebrow="Sobre nós" title="Arquitetura feita com propósito" />
