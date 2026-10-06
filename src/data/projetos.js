@@ -1,7 +1,6 @@
 // Dados de exemplo. Troquem títulos, textos e imagens pelos do protótipo do Figma.
 // As imagens usam picsum.photos como placeholder (seed fixa = mesma imagem sempre).
-const img = (seed, w = 800, h = 600) =>
-  `https://picsum.photos/seed/${seed}/${w}/${h}`
+const img = (name) => `https://picsum.photos/seed/${name}/900/700`
 
 export const projetos = [
   {

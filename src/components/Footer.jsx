@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container footer__inner">
         <div>
           <p className="header__logo">
-            Arq<span>.</span>Studio
+            Base & Traço
           </p>
           <p className="footer__text">
             Projetos de arquitetura e interiores com foco em luz, espaço e
@@ -27,14 +27,14 @@ export default function Footer() {
         <div>
           <h4>Contato</h4>
           <ul>
-            <li>contato@arqstudio.com</li>
+            <li>contato@base&traco.com</li>
             <li>(11) 99999-0000</li>
-            <li>São Paulo, SP</li>
+            <li>Taboão da Serra, SP</li>
           </ul>
         </div>
       </div>
       <p className="footer__copy">
-        © {new Date().getFullYear()} Arq.Studio — Todos os direitos reservados.
+        © {new Date().getFullYear()} Base & Traço — Todos os direitos reservados.
       </p>
     </footer>
   )

@@ -16,9 +16,9 @@ export default function Contato() {
       <div>
         <SectionTitle eyebrow="Contato" title="Vamos conversar sobre seu projeto?" />
         <ul className="contact__info">
-          <li><strong>E-mail:</strong> contato@arqstudio.com</li>
+          <li><strong>E-mail:</strong> contato@base&traco.com</li>
           <li><strong>Telefone:</strong> (11) 99999-0000</li>
-          <li><strong>Endereço:</strong> Rua das Palmeiras, 123 — São Paulo, SP</li>
+          <li><strong>Endereço:</strong> Rua Corinthians, 67 — Taboão da Serra, SP</li>
         </ul>
       </div>
 

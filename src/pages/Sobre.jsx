@@ -26,19 +26,6 @@ export default function Sobre() {
           </p>
         </div>
       </section>
-
-      <section className="section container">
-        <SectionTitle eyebrow="Equipe" title="Quem faz acontecer" />
-        <div className="grid grid--3">
-          {equipe.map((m, i) => (
-            <article key={m.nome} className="member">
-              <img src={`https://picsum.photos/seed/membro-${i}/400/400`} alt={m.nome} />
-              <h3>{m.nome}</h3>
-              <p>{m.cargo}</p>
-            </article>
-          ))}
-        </div>
-      </section>
     </>
   )
 }

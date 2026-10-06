@@ -16,7 +16,7 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <Link to="/" className="header__logo" onClick={fechar}>
-          Arq<span>.</span>Studio
+          Base & Traço
         </Link>
 
         <button

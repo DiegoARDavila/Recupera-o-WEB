@@ -40,7 +40,7 @@ export default function Home() {
       </section>
 
       <section className="section container">
-        <SectionTitle eyebrow="O que fazemos" title="Nossos serviços" />
+        <SectionTitle eyebrow="O que fazemos" title="Sobre nossos serviços" />
         <div className="grid grid--3">
           {servicos.map((s) => (
             <article key={s.titulo} className="service">
@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       <section className="section container">
-        <SectionTitle eyebrow="Portfólio" title="Projetos em destaque">
+        <SectionTitle eyebrow="Portfólio" title="Nossos projetos">
           Uma seleção dos nossos trabalhos mais recentes.
         </SectionTitle>
         <div className="grid grid--3">
