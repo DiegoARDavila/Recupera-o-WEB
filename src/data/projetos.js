@@ -1,7 +1,3 @@
-// Dados de exemplo. Troquem títulos, textos e imagens pelos do protótipo do Figma.
-// As imagens usam picsum.photos como placeholder (seed fixa = mesma imagem sempre).
-const img = (name) => `https://picsum.photos/seed/${name}/900/700`
-
 export const projetos = [
   {
     id: 1,
@@ -11,7 +7,7 @@ export const projetos = [
     local: 'São Paulo, SP',
     ano: 2024,
     area: '320 m²',
-    imagem: img('casa-horizonte'),
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwewcZJc8l0qWRCaE_SkhET3oU1Aq2kMUpi6IQPO-ZgXs356fodkBkN-mQ&s=10',
     descricao:
       'Residência de linhas retas que integra sala, varanda e jardim em um único grande ambiente, com muita luz natural.',
   },
@@ -23,7 +19,7 @@ export const projetos = [
     local: 'Curitiba, PR',
     ano: 2023,
     area: '4.800 m²',
-    imagem: img('edificio-aurora'),
+    imagem: 'https://i.pinimg.com/736x/b0/07/19/b007199d2a14f6a288650f736a57e16c.jpg',
     descricao:
       'Edifício corporativo com fachada em vidro e brises metálicos, pensado para eficiência energética.',
   },
@@ -35,7 +31,7 @@ export const projetos = [
     local: 'Rio de Janeiro, RJ',
     ano: 2024,
     area: '95 m²',
-    imagem: img('loft-urbano'),
+    imagem: 'https://staticfotos.sitemidas.com.br/ftp_corr/site/001540/imgimv/47269380.jpg',
     descricao:
       'Reforma completa de um loft com pé-direito duplo, materiais brutos e marcenaria sob medida.',
   },
@@ -47,7 +43,7 @@ export const projetos = [
     local: 'Belo Horizonte, MG',
     ano: 2022,
     area: '1.200 m²',
-    imagem: img('pavilhao-verde'),
+    imagem: 'https://cdn3.praedium.com.br/5046GAugsqVXuG7IgSy/34784055454134717/t6b08cg2nziyotk1yjiznzhj_sm.jpg',
     descricao:
       'Pavilhão de exposições em madeira laminada, aberto ao parque e coberto por uma cobertura verde.',
   },
@@ -59,7 +55,7 @@ export const projetos = [
     local: 'Campos do Jordão, SP',
     ano: 2023,
     area: '410 m²',
-    imagem: img('casa-da-serra'),
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNA0H-VdmC2zqMNry9q47ebeDXpGbe6Tcpd1XkpVA4tQx0eBuFH2hu92rV&s=10',
     descricao:
       'Casa de montanha em pedra e madeira, com grandes beirais e vista panorâmica para o vale.',
   },
@@ -71,7 +67,7 @@ export const projetos = [
     local: 'Porto Alegre, RS',
     ano: 2021,
     area: '2.300 m²',
-    imagem: img('centro-conviver'),
+    imagem: 'https://www.malfattiimoveis.com.br/uploads/imovel/galeria/big-b60cec4e64d09283511ba30c4fbb5946.jpg',
     descricao:
       'Centro comunitário com pátio central e espaços flexíveis para educação, esporte e lazer.',
   },
